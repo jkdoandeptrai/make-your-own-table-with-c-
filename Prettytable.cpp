@@ -36,7 +36,7 @@ class Prettytable{
       }
       void printTable(){
          findSize();
-         length = length + 6*m_head.size() + 1;
+         length = length + 6*m_head.size() + (m_head.size() - 2);
          // dau
          cout << "+";
          for ( int i = 0; i < length; i ++ ){
